@@ -1,12 +1,21 @@
-$(document).ready(function() {
-	$('.mascaraData').mask('99/99/9999');
-	$('.mascaraCep').mask('99999-999');
-	$('.mascaraCpf').mask('999.999.999-99');
+$(document).ready(function()
+ {
+	$('.mascaraFone').mask('(99) 9 9999-9999');
+}
+);
 
-	$('.mascaraSalario').priceFormat({
-		prefix: 'R$ ',
-		centsSeparator: ',',
-		thousandsSeparator: '.'
-	});
+function enviar()
+{
+	var nome = document.getElementById("nome");
+	var cidade = document.getElementById("cidade");
+	var uf = document.getElementById("uf");
+	var email = document.getElementById("email");
+	var fone = document.getElementById("fone");
 
-});
+	if (nome.value=="")
+	{
+		alert("Preencha seu Nome!")
+		nome.focus()
+	}
+
+}
