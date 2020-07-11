@@ -22,7 +22,7 @@
           </div>
         </nav>
       <div class="barra2">   
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(0, 0, 0, 0.014);">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -47,19 +47,19 @@
         </nav>  
       </div>
     </header>
-
+    <hr>
 
     <main>
         <div class="container mt-5">
             <h2 style="color: rgb(57, 129, 236); text-align: center;">Que tal participar deste projeto?</h2>
             <h5 style="text-align: center"class="mt-4 mb-5"> Preencha seus dados abaixo!</h5>
             <form> 
-                <div class="form-group form-row">
-                  <div class="col-8">
+                <div class="row">
+                  <div class="col-md-8 mt-3">
                     <label for="nome">Nome</label>
                     <input placeholder="Nome completo" type="text" class="form-control" id="nome"> 
                   </div>
-                  <div class="col-4">
+                  <div class="col-md-4 mt-3">
                       <label for="interesse">Área de interesse</label>
                       <select name="interesse" class="form-control" id="interesse">
                           <option value=""> </option>
@@ -70,12 +70,12 @@
                       </select>
                   </div>
               </div>
-                <div class="form-group form-row">
-                    <div class="col-8">
+                <div class="row">
+                    <div class="col-md-8 mt-3">
                         <label for="cidade">Cidade</label>
                         <input type="text" class="form-control" id="cidade">
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 mt-3">
                         <label for="UF">UF</label>
                         <select name="UF" class="form-control" id="uf">
                             <option value=""> </option>
@@ -109,17 +109,17 @@
                         </select>
                     </div>
                 </div>
-                <div class="form-group form-row">
-                    <div class="col-8">
+                <div class="row">
+                    <div class="col-md-8 mt-3">
                         <label for="email">E-mail</label>
                         <input placeholder="exemplo@exemplo.com.br" type="text" class="form-control" id="email">
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 mt-3">
                         <label for="fone">Telefone</label>
                         <input type="text" class="form-control mascaraFone" id="fone">
                     </div>
                 </div>                              
-                <label for="texto">Por que você quer participar deste projeto?</label>
+                <label class="mt-3" for="texto">Por que você quer participar deste projeto?</label>
                 <textarea placeholder="Escreva aqui sua mensagem..." class="form-control" rows="3"></textarea>
                             
                 <button type="button" class="mt-3 btn btn-outline-primary btn-lg" onclick="enviar()">Enviar</button>
