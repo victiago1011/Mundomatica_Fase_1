@@ -36,13 +36,21 @@
     top: 60px;
     left: 42.5%;
 }
-.container a:hover {
+.barra2 a:hover {
     border-bottom:  3px dashed #00bac6;
     color: #00bac6;
 }
 
-.container a{
+.barra2 a{
     color: #8b8b8b;
     text-decoration: none;
     font-size: 18px;
+}
+.h2_contato
+{
+    text-align: center;
+}
+.h5_contato
+{
+    text-align: center;
 }

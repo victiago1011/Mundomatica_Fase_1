@@ -7,6 +7,7 @@ $(document).ready(function()
 function enviar()
 {
 	var nome = document.getElementById("nome");
+	var interesse = document.getElementById("interesse");
 	var cidade = document.getElementById("cidade");
 	var uf = document.getElementById("uf");
 	var email = document.getElementById("email");
@@ -15,6 +16,12 @@ function enviar()
 	if (nome.value=="")
 	{
 		alert("Preencha seu Nome!")
+		nome.focus()
+		return
+	}
+	if (interesse.value=="")
+	{
+		alert("Informe sua área de interesse")
 		nome.focus()
 		return
 	}
