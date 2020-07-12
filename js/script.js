@@ -22,7 +22,7 @@ function enviar()
 	if (interesse.value=="")
 	{
 		alert("Informe sua área de interesse")
-		nome.focus()
+		interesse.focus()
 		return
 	}
 	if (cidade.value=="")

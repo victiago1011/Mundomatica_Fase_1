@@ -5,8 +5,13 @@
     width: auto;
     height: auto;
 }
+#carouselExampleIndicators .carousel-caption 
+{
+    top: 80%;
+
+}
 .main-btn{
-    background-color: #7183eb;
+    background-color: rgb(59, 95, 255);
     color: rgb(244, 245, 248);
     text-transform: uppercase;
     width: 100px;
@@ -18,14 +23,13 @@
 }
 .main-btn:hover{
     text-decoration: none;
-    color: #7183eb;
+    color: rgb(59, 95, 255);
     background-color: transparent;
-    border-color: #7183eb;
+    border-color: rgb(59, 95, 255);
 }
 .main-title{
-    color: #3d51a7;
+    color: #5b72d8;
     margin: 0 0 65px 0;
-    font-size: 40px;
     text-align: center;
 }
 .main-title::after{
@@ -54,11 +58,26 @@
 {
     text-align: center;
 }
-.texto
+p
 {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    color: teal;
+    font-family: Comic Sans MS;
+    text-align: justify;
+    color: #1a65d4;
     font-size: large;
-    vertical-align: middle;
+}
+
+.card-text
+{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*responsivo*/
+@media(max-width: 768px)
+{
+    .container{
+        padding: 10px 10px;
+    }
+
 }
