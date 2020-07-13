@@ -73,11 +73,21 @@ p
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
 /*responsivo*/
 @media(max-width: 768px)
 {
-    .container{
+    .container
+    {
         padding: 10px 10px;
     }
+
+    footer
+    {
+        font-size: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
 
 }
