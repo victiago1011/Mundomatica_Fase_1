@@ -72,7 +72,11 @@ p
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+iframe
+{
+    width: 450px;
+    height: 280px;
+}
 
 /*responsivo*/
 @media(max-width: 768px)
@@ -89,5 +93,4 @@ p
         margin-right: 30px;
     }
     
-
 }
